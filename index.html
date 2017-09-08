@@ -30,12 +30,7 @@
   <div id="cesiumContainer"></div>
   
   <script>
- /* var terrain = Cesium.createDefaultTerrainProviderViewModels();
 
-    var viewer = new Cesium.Viewer('cesiumContainer',{
-		terrainProviderModels : terrain, 
-		selectedTerrainProviderViewModel: terrain[1]
-	});*/
 	var terrainProvider = new Cesium.CesiumTerrainProvider({
   url : '//assets.agi.com/stk-terrain/world'
 });
@@ -43,7 +38,6 @@
     terrainProvider: terrainProvider,
     baseLayerPicker: false
 });
-	var terrainSamplePositions = [];
 geojsonOption = {
 	clampToGround : true
 };	
