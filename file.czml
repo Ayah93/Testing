@@ -1,0 +1,43 @@
+[{ 
+"id" : "document",
+"version" : "1.0", 
+"name" : "Irradiance Monthly", 
+"clock" : { 
+"interval": "2014-01-01/2014-12-31" , 
+"currentTime": "2014-01-01" ,  
+"multiplier" : 1000000} 
+ },
+  
+ { "id" : 37660,
+"position" : { 
+"cartographicDegrees" :  [54.3216588711405, 24.457310259848, 2.25] 
+ }, 
+"properties" : { 
+"energy_intervals" : [ 
+ { "interval" : "2014-01-01/2014-02-01",  "Irrad_M" : 57.6792 }, 
+ 
+ { "interval" : "2014-02-01/2014-03-01",  "Irrad_M" : 72.244 }, 
+ 
+ { "interval" : "2014-03-01/2014-04-01",  "Irrad_M" : 84.3633 }, 
+ 
+ { "interval" : "2014-04-01/2014-05-01",  "Irrad_M" : 105.539 }, 
+ 
+ { "interval" : "2014-05-01/2014-06-01",  "Irrad_M" : 122.742 }, 
+ 
+ { "interval" : "2014-06-01/2014-07-01",  "Irrad_M" : 118.367 }, 
+ 
+ { "interval" : "2014-07-01/2014-08-01",  "Irrad_M" : 112.839 }, 
+ 
+ { "interval" : "2014-08-01/2014-09-01",  "Irrad_M" : 103.048 }, 
+ 
+ { "interval" : "2014-09-01/2014-010-01",  "Irrad_M" : 94.8265 }, 
+ { 
+"interval" : "2014-010-01/2014-11-01",  "Irrad_M" : 78.7672 }, 
+ { 
+"interval" : "2014-11-01/2014-12-01",  "Irrad_M" : 66.4812 }, 
+ { 
+"interval" : "2014-12-01/2014-12-31",  "Irrad_M" : 54.4378  } ] }, 
+ 
+"point"  : {  
+ "pixelSize" : {"number" : 6 } } 
+  },
